@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Epilogue:wght@400;500;700;900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#7f13ec",
+              "background-light": "#f7f6f8",
+              "background-dark": "#191022",
+            },
+            fontFamily: {
+              "display": ["Epilogue"]
+            },
+            borderRadius: {
+              "DEFAULT": "0.25rem",
+              "lg": "0.5rem",
+              "xl": "0.75rem",
+              "full": "9999px"
+            },
+          },
+        },
+      }
+    </script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-white">
+<div class="relative flex min-h-screen w-full flex-col justify-between overflow-x-hidden">
+<header class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="flex items-center p-4 justify-between">
+<div class="w-12"></div>
+<h1 class="text-xl font-bold text-black dark:text-white flex-1 text-center">Trancista</h1>
+<div class="flex w-12 items-center justify-end">
+<button class="flex items-center justify-center rounded-full h-12 w-12 text-black dark:text-white">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<div class="p-4 flex flex-col items-center text-center">
+<div class="w-32 h-32 rounded-full bg-cover bg-center mb-6" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBHohRaI_VjffG7CoG0cPTpfnL8OpBGfIoaYGEtE8GaxWdtaEHz8WjMiov-bcqk3R5NQYO4ZreY891CflIARbC3VzemdL3Y0NmxH27IrcSsbONKikkeW5AShGKY33iIFK4ABaOXGaiiOGOP54_bIb4kHHyKqHn7aDjtU0kALTngIWyNcErsQZ0L8xPIMC6NYz85lDqJX0tg6MFQOLKhYA80YiZcqEX9PgOMMI2cRA3bkPzcGd1g1OjPaRHCJxmwELyvVCCmwD86InE7");'></div>
+<h2 class="text-2xl font-bold text-black dark:text-white">Mariana Silva</h2>
+<p class="text-base text-primary font-medium mb-4">Trancista Profissional</p>
+<p class="text-sm text-black/70 dark:text-white/70 max-w-md">
+            Com mais de 10 anos de experiência, Mariana Silva é uma trancista renomada, conhecida por sua técnica impecável e criatividade. Sua paixão por tranças a levou a dominar diversos estilos, desde os clássicos até os mais modernos, sempre com um toque pessoal e elegante.
+          </p>
+</div>
+<div class="px-4 py-8">
+<div class="h-px bg-white/10 dark:bg-white/10 w-full mb-8"></div>
+<h3 class="text-2xl font-bold text-black dark:text-white mb-4">Sobre Mim</h3>
+<p class="text-sm text-black/70 dark:text-white/70 leading-relaxed">
+            Minha jornada como trancista começou há mais de uma década, impulsionada pela minha paixão por beleza e arte. Ao longo dos anos, tive o privilégio de trabalhar com uma variedade de clientes, cada um com sua história e estilo único. Acredito que as tranças são mais do que apenas um penteado; são uma forma de expressão e empoderamento. Meu objetivo é criar tranças que não apenas realcem a beleza natural de cada cliente, mas também reflitam sua personalidade e individualidade. Estou sempre em busca de novas técnicas e tendências para oferecer um serviço de alta qualidade e inovador. Seja para um evento especial ou para o dia a dia, minhas tranças são feitas com cuidado e atenção aos detalhes, garantindo um resultado duradouro e impecável.
+          </p>
+</div>
+</main>
+<footer class="sticky bottom-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-t border-white/10 dark:border-white/10">
+<nav class="flex justify-around p-2">
+<a class="flex flex-col items-center justify-center gap-1 text-black/60 dark:text-white/60 w-1/5" href="#">
+<span class="material-symbols-outlined text-2xl">home</span>
+<span class="text-xs font-medium">Home</span>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-primary w-1/5" href="#">
+<div class="bg-primary/20 rounded-full p-2">
+<span class="material-symbols-outlined text-2xl">person</span>
+</div>
+<span class="text-xs font-medium">Sobre mim</span>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-black/60 dark:text-white/60 w-1/5" href="#">
+<span class="material-symbols-outlined text-2xl">content_cut</span>
+<span class="text-xs font-medium">Serviços</span>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-black/60 dark:text-white/60 w-1/5 text-center" href="#">
+<span class="material-symbols-outlined text-2xl">book_2</span>
+<span class="text-xs font-medium">Guia</span>
+</a>
+<a class="flex flex-col items-center justify-center gap-1 text-black/60 dark:text-white/60 w-1/5" href="#">
+<span class="material-symbols-outlined text-2xl">email</span>
+<span class="text-xs font-medium">Contato</span>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>
